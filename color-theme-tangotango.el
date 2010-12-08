@@ -161,14 +161,15 @@
      (message-header-subject ((t (:foreground "white"))))
      (message-header-to ((t (:foreground "white"))))
      (message-header-cc ((t (:foreground "white"))))
-     (org-hide ((t (:foreground "#2e3436"))))
+
+     (org-hide ((t (:foreground "black"))))
      (org-level-1 ((t (:bold t :foreground "dodger blue" :height 1.5))))
      (org-level-2 ((t (:bold nil :foreground "#edd400" :height 1.2))))
      (org-level-3 ((t (:bold t :foreground "#6ac214" :height 1.0))))
      (org-level-4 ((t (:bold nil :foreground "tomato" :height 1.0))))
      (org-date ((t (:underline t :foreground "magenta3"))))
      (org-footnote  ((t (:underline t :foreground "magenta3"))))
-     (org-link ((t (:foreground "skyblue2" :background "#2e3436"))))
+     (org-link ((t (:foreground "skyblue2" :background "#black"))))
      (org-special-keyword ((t (:foreground "brown"))))
      (org-verbatim ((t (:foreground "#eeeeec" :underline t :slant italic))))
      (org-block ((t (:foreground "#bbbbbc"))))
@@ -180,7 +181,9 @@
      (org-agenda-date ((t (:foreground "#6ac214"))))
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
+
      (anything-header ((t (:bold t :background "grey15" :foreground "#edd400"))))
+
      (ess-jb-comment-face ((t (:background "#2e3436" :foreground "firebrick" :slant italic))))
      (ess-jb-hide-face ((t (:background "#2e3436" :foreground "#243436"))))
      (ess-jb-h1-face ((t (:height 1.6 :foreground "dodger blue" :slant normal))))
